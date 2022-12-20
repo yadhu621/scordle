@@ -1,20 +1,110 @@
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
-from webdriver_manager.chrome import ChromeDriverManager
-import pathlib
+from whatsapp import WhatsApp
+from scorer import Score
+
+def main():
+    """
+    Main function
+    """
+    raw_data = ["All new messages will disappear from this chat 7 days after they're sent.",
+                'You:',
+                'Wordle 317 5/6\n\n\n\n\n\n',
+                'Wordle 317 5/6\n\n\n\n\n\n',
+                ' Read ',
+                'Manohar Nanaba:',
+                'You:',
+                ' Read ',
+                'Manohar Nanaba:',
+                'Wordle 318 4/6\n\n\n\n\n',
+                'Wordle 318 4/6\n\n\n\n\n',
+                'You:',
+                'Wordle 318 5/6\n\n\n\n\n\n',
+                'Wordle 318 5/6\n\n\n\n\n\n',
+                ' Read ',
+                'Manohar Nanaba:',
+                'Wordle 319 4/6\n\n\n\n\n',
+                'Wordle 319 4/6\n\n\n\n\n',
+                'Manohar Nanaba:',
+                'Wordle 320 5/6\n\n\n\n\n\n',
+                'Wordle 320 5/6\n\n\n\n\n\n',
+                'Manohar Nanaba:',
+                'Wordle 321 4/6\n\n\n\n\n',
+                'Wordle 321 4/6\n\n\n\n\n',
+                'You:',
+                'Wordle 320 5/6\n\n\n\n\n\n',
+                'Wordle 320 5/6\n\n\n\n\n\n',
+                ' Read ',
+                'You:',
+                'Wordle 321 6/6\n\n\n\n\n\n\n',
+                'Wordle 321 6/6\n\n\n\n\n\n\n',
+                ' Read ',
+                'Manohar Nanaba:',
+                'Manohar Nanaba:',
+                'Wordle 322 3/6\n\n\n\n',
+                'Wordle 322 3/6\n\n\n\n',
+                'Manohar Nanaba:',
+                'You:',
+                ' Read ',
+                'Manohar Nanaba:',
+                'Manohar Nanaba:',
+                'Wordle 323 4/6\n\n\n\n\n',
+                'Wordle 323 4/6\n\n\n\n\n',
+                'Manohar Nanaba:',
+                'Wordle 324 4/6\n\n\n\n\n',
+                'Wordle 324 4/6\n\n\n\n\n',
+                'Manohar Nanaba:',
+                'You:',
+                'Wordle 325 5/6\n\n\n\n\n\n',
+                'Wordle 325 5/6\n\n\n\n\n\n',
+                ' Read ',
+                'You:',
+                ' Read ',
+                'Manohar Nanaba:',
+                'You:',
+                ' Read ',
+                'Manohar Nanaba:',
+                'You:',
+                'Wordle 327 X/6\n\n\n\n\n\n\n',
+                'Wordle 327 X/6\n\n\n\n\n\n\n',
+                ' Read ',
+                'You:',
+                'Wordle 326 2/6\n\n\n',
+                'Wordle 326 2/6\n\n\n',
+                ' Read ',
+                'Manohar Nanaba:',
+                'You:',
+                'Wordle 324 4/6\n\n\n\n\n',
+                'Wordle 324 4/6\n\n\n\n\n',
+                ' Read ',
+                'Manohar Nanaba:',
+                'Wordle 324 4/6\n\n\n\n\n',
+                'Wordle 324 4/6\n\n\n\n\n',
+                'You:',
+                ' Read ',
+                'You:',
+                'Wordle 323 5/6\n\n\n\n\n\n',
+                'Wordle 323 5/6\n\n\n\n\n\n',
+                ' Read ',
+                'Manohar Nanaba:',
+                'Wordle 323 4/6\n\n\n\n\n',
+                'Wordle 323 4/6\n\n\n\n\n',
+                'You:',
+                'Wordle 322 5/6\n\n\n\n\n\n',
+                'Wordle 322 5/6\n\n\n\n\n\n',
+                ' Read ',
+                'Manohar Nanaba:',
+                'Wordle 322 3/6\n\n\n\n',
+                'Wordle 322 3/6\n\n\n\n',
+                'You:',
+                ' Read ',
+                'Manohar Nanaba:']
+
+    # raw_data = WhatsApp().scrape()
+    scores = Score().clean(raw_data=raw_data)
+    
+    for i in range(310,325):
+        points = Score().points(i,scores=scores)
+        print({i:points})
 
 
-URL = "https://web.whatsapp.com/"
-PWD = pathlib.Path().absolute()
-
-# Keep the browser open after GET
-chrome_options = Options()
-chrome_options.add_experimental_option("detach", True)
-chrome_options.add_argument(f"user-data-dir={PWD}\\cache")
-
-driver = webdriver.Chrome(
-            service=Service(ChromeDriverManager().install()),
-            options=chrome_options
-        )
-driver.get(URL)
+if __name__ == "__main__":
+    main()

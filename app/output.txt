@@ -1,0 +1,148 @@
+["All new messages will disappear from this chat 7 days after they're sent.",
+ 'You:',
+ 'Wordle 317 5/6\n\n\n\n\n\n',
+ 'Wordle 317 5/6\n\n\n\n\n\n',
+ ' Read ',
+ 'Manohar Nanaba:',
+ 'You:',
+ ' Read ',
+ 'Manohar Nanaba:',
+ 'Wordle 318 4/6\n\n\n\n\n',
+ 'Wordle 318 4/6\n\n\n\n\n',
+ 'You:',
+ 'Wordle 318 5/6\n\n\n\n\n\n',
+ 'Wordle 318 5/6\n\n\n\n\n\n',
+ ' Read ',
+ 'Manohar Nanaba:',
+ 'Wordle 319 4/6\n\n\n\n\n',
+ 'Wordle 319 4/6\n\n\n\n\n',
+ 'Manohar Nanaba:',
+ 'Wordle 320 5/6\n\n\n\n\n\n',
+ 'Wordle 320 5/6\n\n\n\n\n\n',
+ 'Manohar Nanaba:',
+ 'Wordle 321 4/6\n\n\n\n\n',
+ 'Wordle 321 4/6\n\n\n\n\n',
+ 'You:',
+ 'Wordle 320 5/6\n\n\n\n\n\n',
+ 'Wordle 320 5/6\n\n\n\n\n\n',
+ ' Read ',
+ 'You:',
+ 'Wordle 321 6/6\n\n\n\n\n\n\n',
+ 'Wordle 321 6/6\n\n\n\n\n\n\n',
+ ' Read ',
+ 'Manohar Nanaba:',
+ 'Manohar Nanaba:',
+ 'Wordle 322 3/6\n\n\n\n',
+ 'Wordle 322 3/6\n\n\n\n',
+ 'Manohar Nanaba:',
+ 'You:',
+ ' Read ',
+ 'Manohar Nanaba:',
+ 'Manohar Nanaba:',
+ 'Wordle 323 4/6\n\n\n\n\n',
+ 'Wordle 323 4/6\n\n\n\n\n',
+ 'Manohar Nanaba:',
+ 'Wordle 324 4/6\n\n\n\n\n',
+ 'Wordle 324 4/6\n\n\n\n\n',
+ 'Manohar Nanaba:',
+ 'You:',
+ 'Wordle 325 5/6\n\n\n\n\n\n',
+ 'Wordle 325 5/6\n\n\n\n\n\n',
+ ' Read ',
+ 'You:',
+ ' Read ',
+ 'Manohar Nanaba:',
+ 'You:',
+ ' Read ',
+ 'Manohar Nanaba:',
+ 'You:',
+ 'Wordle 327 X/6\n\n\n\n\n\n\n',
+ 'Wordle 327 X/6\n\n\n\n\n\n\n',
+ ' Read ',
+ 'You:',
+ 'Wordle 326 2/6\n\n\n',
+ 'Wordle 326 2/6\n\n\n',
+ ' Read ',
+ 'Manohar Nanaba:',
+ 'You:',
+ 'Wordle 324 4/6\n\n\n\n\n',
+ 'Wordle 324 4/6\n\n\n\n\n',
+ ' Read ',
+ 'Manohar Nanaba:',
+ 'Wordle 324 4/6\n\n\n\n\n',
+ 'Wordle 324 4/6\n\n\n\n\n',
+ 'You:',
+ ' Read ',
+ 'You:',
+ 'Wordle 323 5/6\n\n\n\n\n\n',
+ 'Wordle 323 5/6\n\n\n\n\n\n',
+ ' Read ',
+ 'Manohar Nanaba:',
+ 'Wordle 323 4/6\n\n\n\n\n',
+ 'Wordle 323 4/6\n\n\n\n\n',
+ 'You:',
+ 'Wordle 322 5/6\n\n\n\n\n\n',
+ 'Wordle 322 5/6\n\n\n\n\n\n',
+ ' Read ',
+ 'Manohar Nanaba:',
+ 'Wordle 322 3/6\n\n\n\n',
+ 'Wordle 322 3/6\n\n\n\n',
+ 'You:',
+ ' Read ',
+ 'Manohar Nanaba:']
+
+
+
+ ['placeholder'
+ , 'You'
+ , 'Wordle 317 5/6'
+ , 'Manohar Nanaba'
+ , 'You'
+ , 'Manohar Nanaba'
+ , 'Wordle 318 4/6'
+ , 'You'
+ , 'Wordle 318 5/6'
+ , 'Manohar Nanaba'
+ , 'Wordle 319 4/6'
+ , 'Manohar Nanaba'
+ , 'Wordle 320 5/6'
+ , 'Manohar Nanaba'
+ , 'Wordle 321 4/6'
+ , 'You'
+ , 'Wordle 320 5/6'
+ , 'You'
+ , 'Wordle 321 6/6'
+ , 'Manohar Nanaba'
+ , 'Wordle 322 3/6'
+ , 'Manohar Nanaba'
+ , 'You'
+ , 'Manohar Nanaba'
+ , 'Wordle 323 4/6'
+ , 'Manohar Nanaba'
+ , 'Wordle 324 4/6'
+ , 'Manohar Nanaba'
+ , 'You'
+ , 'Wordle 325 5/6'
+ , 'You'
+ , 'Manohar Nanaba'
+ , 'You'
+ , 'Manohar Nanaba'
+ , 'You'
+ , 'Wordle 327 X/6'
+ , 'You'
+ , 'Wordle 326 2/6'
+ , 'Manohar Nanaba'
+ , 'You'
+ , 'Wordle 324 4/6'
+ , 'Manohar Nanaba'
+ , 'Wordle 324 4/6'
+ , 'You'
+ , 'Wordle 323 5/6'
+ , 'Manohar Nanaba'
+ , 'Wordle 323 4/6'
+ , 'You'
+ , 'Wordle 322 5/6'
+ , 'Manohar Nanaba'
+ , 'Wordle 322 3/6'
+ , 'You'
+ , 'Manohar Nanaba']

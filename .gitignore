@@ -110,6 +110,7 @@ ENV/
 env.bak/
 venv.bak/
 cache/
+notes/
 
 # Spyder project settings
 .spyderproject
